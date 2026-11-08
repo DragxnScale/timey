@@ -139,7 +139,7 @@ def datey(date):
         raise ValueError("Invalid Date")
     return year, month, day
 
-if __name__ == "__main__":
+def runny():
     try:
        main()
     except ValueError as error:
